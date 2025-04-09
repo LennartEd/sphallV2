@@ -1,0 +1,237 @@
+(footprint "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "U0"
+		(at 1.84 -2 0)
+		(layer "F.SilkS")
+		(uuid "79cffdee-8a25-40ad-b401-4f34d0d2930a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HX6659ISO-B"
+		(at -0.05 3.38 0)
+		(layer "F.Fab")
+		(uuid "f7213139-c086-4e98-bdca-bb47bf519dce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://lcsc.com/product-detail/New-Arrivals_HUAXIN-HX6659-b_C495742.html"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ea91452-df5b-4fcc-84f6-8f1f12df5ec3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e0936898-6eb5-4fb2-9fe6-88be4ea25b71")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part" "C495742"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b89a2de-36e7-40cf-9832-57732ce6919e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.54 -0.88)
+		(end -0.49 -0.88)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "30c84520-e3cf-4411-91a8-c45ed6ef1126")
+	)
+	(fp_line
+		(start -1.54 0.88)
+		(end -1.54 -0.88)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cefa9332-f8df-419a-9a59-87452fb97c5b")
+	)
+	(fp_line
+		(start 0.46 0.88)
+		(end -0.46 0.88)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "923d77b1-f316-45ed-a67a-2679f88e4f49")
+	)
+	(fp_line
+		(start 1.54 -0.88)
+		(end 0.49 -0.88)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5b1d0cb1-9fd1-493e-a82d-b4a22fa798af")
+	)
+	(fp_line
+		(start 1.54 0.88)
+		(end 1.54 -0.88)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ea9864a7-7b42-48a7-9488-551c17fc9530")
+	)
+	(fp_circle
+		(center -1.46 1.4)
+		(end -1.46 1.43)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "4b191ee5-b379-4a66-9136-11f67210a088")
+	)
+	(fp_rect
+		(start -9.525 -9.525)
+		(end 9.525 9.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "2bb07fd5-5fed-49e9-80ef-1027206bc909")
+	)
+	(fp_rect
+		(start -7 -7)
+		(end 7 7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "User.4")
+		(uuid "549d9263-f0f1-459d-83ae-911768d15bd3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -1.87 -2.24 0)
+		(layer "F.Fab")
+		(uuid "1098959b-7196-435b-a3f2-67ea6889cb89")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -5.08 0)
+		(size 1.75 1.75)
+		(drill 1.75)
+		(layers "*.Cu" "*.Mask")
+		(uuid "9ad57120-dbad-406b-8f25-7a923ab341e7")
+	)
+	(pad "" np_thru_hole circle
+		(at 5.08 0)
+		(size 1.75 1.75)
+		(drill 1.75)
+		(layers "*.Cu" "*.Mask")
+		(uuid "e4467a7d-d1e0-4f53-ada8-d93a2153efd5")
+	)
+	(pad "1" smd rect
+		(at -0.95 1.44 270)
+		(size 1.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(zone_connect 0)
+		(uuid "0dd15bd1-a096-43ae-bcdf-4cc02e0fba16")
+	)
+	(pad "2" smd rect
+		(at 0.95 1.44 270)
+		(size 1.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c0cb8128-78d9-4b4f-a179-b4e086014b22")
+	)
+	(pad "3" smd rect
+		(at 0 -1.44 270)
+		(size 1.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c573cfc7-bcc0-46d8-bbac-5831277d6f53")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu")
+		(uuid "7c83ede9-6e02-4b40-af44-343f43699de3")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 1.6 -0.9) (xy 1.6 0.9) (xy -1.6 0.9) (xy -1.6 -0.9)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dshapeLib.3dshapes/SOT-23-3L_L2.9-W1.6-H1.1-LS2.8-P0.95.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)
