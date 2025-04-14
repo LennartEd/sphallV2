@@ -6281,6 +6281,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 490.22 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91def7d0-18d4-498b-95f4-25a2356d27e4")
+		(property "Reference" "H10"
+			(at 492.76 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 492.76 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 490.22 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 490.22 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 490.22 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "SplitHallBoard"
+				(path "/f39183b1-1109-46d9-9ae3-377f71bbe3c7"
+					(reference "H10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 549.91 64.77 0)
 		(unit 1)
@@ -7520,6 +7585,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 472.44 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff186207-9624-4948-837e-343e60a2a7c4")
+		(property "Reference" "H9"
+			(at 474.98 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 474.98 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 472.44 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 472.44 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 472.44 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "SplitHallBoard"
+				(path "/f39183b1-1109-46d9-9ae3-377f71bbe3c7"
+					(reference "H9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "symbolLib:TCEPQR_0_1")
 		(at 568.96 105.41 0)
 		(unit 1)
@@ -7640,7 +7770,7 @@
 			)
 		)
 		(instances
-			(project "+try2"
+			(project "SplitHallBoard"
 				(path "/f39183b1-1109-46d9-9ae3-377f71bbe3c7"
 					(page "7")
 				)
@@ -7691,7 +7821,7 @@
 			)
 		)
 		(instances
-			(project "+try2"
+			(project "SplitHallBoard"
 				(path "/f39183b1-1109-46d9-9ae3-377f71bbe3c7"
 					(page "20")
 				)
@@ -7742,7 +7872,7 @@
 			)
 		)
 		(instances
-			(project "+try2"
+			(project "SplitHallBoard"
 				(path "/f39183b1-1109-46d9-9ae3-377f71bbe3c7"
 					(page "19")
 				)
@@ -7793,7 +7923,7 @@
 			)
 		)
 		(instances
-			(project "+try2"
+			(project "SplitHallBoard"
 				(path "/f39183b1-1109-46d9-9ae3-377f71bbe3c7"
 					(page "12")
 				)
@@ -7844,7 +7974,7 @@
 			)
 		)
 		(instances
-			(project "+try2"
+			(project "SplitHallBoard"
 				(path "/f39183b1-1109-46d9-9ae3-377f71bbe3c7"
 					(page "16")
 				)
@@ -7895,7 +8025,7 @@
 			)
 		)
 		(instances
-			(project "+try2"
+			(project "SplitHallBoard"
 				(path "/f39183b1-1109-46d9-9ae3-377f71bbe3c7"
 					(page "24")
 				)
@@ -7946,7 +8076,7 @@
 			)
 		)
 		(instances
-			(project "+try2"
+			(project "SplitHallBoard"
 				(path "/f39183b1-1109-46d9-9ae3-377f71bbe3c7"
 					(page "6")
 				)
@@ -7997,7 +8127,7 @@
 			)
 		)
 		(instances
-			(project "+try2"
+			(project "SplitHallBoard"
 				(path "/f39183b1-1109-46d9-9ae3-377f71bbe3c7"
 					(page "21")
 				)
@@ -8048,7 +8178,7 @@
 			)
 		)
 		(instances
-			(project "+try2"
+			(project "SplitHallBoard"
 				(path "/f39183b1-1109-46d9-9ae3-377f71bbe3c7"
 					(page "18")
 				)
@@ -8099,7 +8229,7 @@
 			)
 		)
 		(instances
-			(project "+try2"
+			(project "SplitHallBoard"
 				(path "/f39183b1-1109-46d9-9ae3-377f71bbe3c7"
 					(page "15")
 				)
@@ -8150,7 +8280,7 @@
 			)
 		)
 		(instances
-			(project "+try2"
+			(project "SplitHallBoard"
 				(path "/f39183b1-1109-46d9-9ae3-377f71bbe3c7"
 					(page "22")
 				)
@@ -8201,7 +8331,7 @@
 			)
 		)
 		(instances
-			(project "+try2"
+			(project "SplitHallBoard"
 				(path "/f39183b1-1109-46d9-9ae3-377f71bbe3c7"
 					(page "23")
 				)
@@ -8252,7 +8382,7 @@
 			)
 		)
 		(instances
-			(project "+try2"
+			(project "SplitHallBoard"
 				(path "/f39183b1-1109-46d9-9ae3-377f71bbe3c7"
 					(page "2")
 				)
@@ -8303,7 +8433,7 @@
 			)
 		)
 		(instances
-			(project "+try2"
+			(project "SplitHallBoard"
 				(path "/f39183b1-1109-46d9-9ae3-377f71bbe3c7"
 					(page "5")
 				)
@@ -8354,7 +8484,7 @@
 			)
 		)
 		(instances
-			(project "+try2"
+			(project "SplitHallBoard"
 				(path "/f39183b1-1109-46d9-9ae3-377f71bbe3c7"
 					(page "11")
 				)
@@ -8405,7 +8535,7 @@
 			)
 		)
 		(instances
-			(project "+try2"
+			(project "SplitHallBoard"
 				(path "/f39183b1-1109-46d9-9ae3-377f71bbe3c7"
 					(page "8")
 				)
@@ -8456,7 +8586,7 @@
 			)
 		)
 		(instances
-			(project "+try2"
+			(project "SplitHallBoard"
 				(path "/f39183b1-1109-46d9-9ae3-377f71bbe3c7"
 					(page "10")
 				)
@@ -8507,7 +8637,7 @@
 			)
 		)
 		(instances
-			(project "+try2"
+			(project "SplitHallBoard"
 				(path "/f39183b1-1109-46d9-9ae3-377f71bbe3c7"
 					(page "13")
 				)
@@ -8558,7 +8688,7 @@
 			)
 		)
 		(instances
-			(project "+try2"
+			(project "SplitHallBoard"
 				(path "/f39183b1-1109-46d9-9ae3-377f71bbe3c7"
 					(page "9")
 				)
@@ -8609,7 +8739,7 @@
 			)
 		)
 		(instances
-			(project "+try2"
+			(project "SplitHallBoard"
 				(path "/f39183b1-1109-46d9-9ae3-377f71bbe3c7"
 					(page "17")
 				)
@@ -8660,7 +8790,7 @@
 			)
 		)
 		(instances
-			(project "+try2"
+			(project "SplitHallBoard"
 				(path "/f39183b1-1109-46d9-9ae3-377f71bbe3c7"
 					(page "14")
 				)
@@ -8711,7 +8841,7 @@
 			)
 		)
 		(instances
-			(project "+try2"
+			(project "SplitHallBoard"
 				(path "/f39183b1-1109-46d9-9ae3-377f71bbe3c7"
 					(page "3")
 				)
@@ -8762,7 +8892,7 @@
 			)
 		)
 		(instances
-			(project "+try2"
+			(project "SplitHallBoard"
 				(path "/f39183b1-1109-46d9-9ae3-377f71bbe3c7"
 					(page "4")
 				)
